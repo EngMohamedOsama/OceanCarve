@@ -1,10 +1,8 @@
 # OceanCarver
 3D Hyper-Casual Game Concept Drag and drop sticker
-user carve tools to draw  anything or carve the sticker from the wood 
+user carve tools to draw anything :)
+Carve the sticker from the wood to win =D
 in a beautiful ocean enviroment fill of sharks !!!
-
-
-
 
 Concepts Used
 ---------------
@@ -19,16 +17,6 @@ Concepts Used
 * Particle Systems.
 * Unity Animations.
 
-Known Problems
---------------
-
-- Camera edges Field of view on different mobile devices resloution
-
-Pre-requisites
---------------
-
-- Unity 2020.3.6 (LTS)
-
 Screenshots
 -------------
 
@@ -37,7 +25,13 @@ Screenshots
 Getting Started
 ---------------
 - Download Game APK Version 0.2 : https://i.diawi.com/wjGKcj
+- Unity 2020.3.6 (LTS)
 - Build APP on prefered platform using Unity.
+
+Known Problems
+--------------
+
+- Camera edges Field of view on different mobile devices resloution
 
 Contacts
 -------
