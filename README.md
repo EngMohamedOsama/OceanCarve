@@ -32,7 +32,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src="screenshots/Island.png" height="400"/> <img src="Recordings/image1.jpg" height="400" /> <img src="Recordings/image2.jpg" height="400"/> <img src="Recordings/image3.jpg" height="400"/>  <img src="Recordings/image4.jpg" height="400"/>  
+<img src="Recordings/image1.jpg" height="400" /> <img src="Recordings/image2.jpg" height="400"/> <img src="Recordings/image3.jpg" height="400"/>  <img src="Recordings/image4.jpg" height="400"/>  
 
 Getting Started
 ---------------
