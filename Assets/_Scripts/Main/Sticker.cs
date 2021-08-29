@@ -10,6 +10,9 @@ public class Sticker : SkillTemplate
     [SerializeField]
     private LayerMask carveMask;
 
+    [Header("SFX")]
+    public AudioClip placeStickerSFX;
+
     [Header("Deabug")]
     [ReadOnly]
     public bool canMove;
@@ -65,6 +68,7 @@ public class Sticker : SkillTemplate
             stickerCube.transform.position = carveCube.transform.position;
             LevelManager.Instance.carveArea.RemoveCube(carveCube.transform.name, false);
         }
+        SoundManager.Instance.PlaySFX(placeStickerSFX);
         ScoreManager.Instance.totalScore = childsRigidBody.Count;
         ScoreManager.Instance.ResetScore();
         stickerPlaced = true;

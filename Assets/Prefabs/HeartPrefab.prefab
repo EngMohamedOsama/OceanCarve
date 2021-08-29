@@ -657,6 +657,7 @@ MonoBehaviour:
   carveMask:
     serializedVersion: 2
     m_Bits: 64
+  placeStickerSFX: {fileID: 8300000, guid: b43d102aac6b145468dcaa94a5cccae1, type: 3}
   canMove: 0
   stickerPlaced: 0
   drawGizmoz: 0

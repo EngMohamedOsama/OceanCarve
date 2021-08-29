@@ -313,8 +313,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9832d881ebf122940abca58bac443221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicVolume: 1
+  musicVolume: 0.315
   sfxVolume: 1
-  pitchRange: 0.5
+  pitchRange: 0.7
   SFXSource: {fileID: 4453652978018023343}
   MusicSource: {fileID: 84304906784304627}

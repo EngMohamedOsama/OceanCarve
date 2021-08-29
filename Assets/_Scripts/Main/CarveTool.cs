@@ -12,6 +12,13 @@ public class CarveTool : SkillTemplate
     [SerializeField]
     private LayerMask carveAreaLayer;
 
+    [Header("SFX")]
+    public AudioClip stickerCarveSFX;
+    public AudioClip areaCarveSFX;
+
+    private readonly int AREA_LAYER = 6;
+    private readonly int STICKER_LAYER = 7;
+
     public override void ProcessAbility()
     {
         base.ProcessAbility();
@@ -25,17 +32,19 @@ public class CarveTool : SkillTemplate
         RaycastHit hit;
         if (Physics.Raycast(transform.position, Vector3.forward, out hit, 100, targetMask))
         {
-            if (hit.transform.gameObject.layer == 7)
+            if (hit.transform.gameObject.layer == STICKER_LAYER)
             {
                 LevelManager.Instance.currentSticker.RemoveSticker(hit.transform.name);
                 ScoreManager.Instance.AddScore(1);
                 ScoreManager.Instance.AddProgress();
+                SoundManager.Instance.PlaySFX(stickerCarveSFX);
             }
 
-            if (hit.transform.gameObject.layer == 6)
+            if (hit.transform.gameObject.layer == AREA_LAYER)
             {
                 LevelManager.Instance.carveArea.RemoveCube(hit.transform.name);
                 ScoreManager.Instance.AddScore(-1);
+                SoundManager.Instance.PlaySFX(areaCarveSFX,true);
                 Vibrator.Vibrate(Random.Range(100, 250));
             }
             

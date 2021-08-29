@@ -55,6 +55,8 @@ MonoBehaviour:
   carveAreaLayer:
     serializedVersion: 2
     m_Bits: 64
+  stickerCarveSFX: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+  areaCarveSFX: {fileID: 8300000, guid: 81652031b64c342cc8dbc59c138d77c5, type: 3}
 --- !u!1 &5701724214817485061
 GameObject:
   m_ObjectHideFlags: 0
