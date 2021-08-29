@@ -1,7 +1,7 @@
 # OceanCarver
 3D Hyper-Casual Game Concept Drag and drop sticker
-user carve tools to draw anything :)
-Carve the sticker from the wood to win =D
+use carve tools to draw anything,
+Carve sticker from the wood to win
 in a beautiful ocean enviroment fill of sharks !!!
 
 Concepts Used
